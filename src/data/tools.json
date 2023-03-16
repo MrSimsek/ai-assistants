@@ -22,5 +22,11 @@
     "name": "Kaiber",
     "description": "Transform your ideas into the visual stories of your dreams.",
     "url": "https://www.kaiber.ai/"
+  },
+  {
+    "id": "leiapix-ai-tool",
+    "name": "LeiaPix Converter - 2D to 3D",
+    "description": "LeiaPix Converter is a free image processing tool that enables instant conversion of 2D images into beautiful 3D Lightfield images.",
+    "url": "https://convert.leiapix.com/"
   }
 ]
