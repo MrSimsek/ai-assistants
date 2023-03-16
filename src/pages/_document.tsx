@@ -22,6 +22,11 @@ export default function Document() {
           href="/favicon-16x16.png"
         />
         <link rel="manifest" href="/site.webmanifest" />
+        <script
+          defer
+          data-domain="aiasist.com"
+          src="https://plausible.io/js/script.js"
+        ></script>
       </Head>
       <body>
         <Main />
