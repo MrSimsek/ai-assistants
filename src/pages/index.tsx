@@ -47,6 +47,7 @@ export default function Home() {
                 <a
                   href={tool.url}
                   className="text-blue-600 hover:text-blue-800 font-bold"
+                  target="_blank"
                 >
                   Learn more
                 </a>
