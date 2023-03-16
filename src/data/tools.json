@@ -16,5 +16,11 @@
     "name": "PatternedAI",
     "description": "Generate unique patterns for your product using AI",
     "url": "https://www.patterned.ai/"
+  },
+  {
+    "id": "kaiber-ai-tool",
+    "name": "Kaiber",
+    "description": "Transform your ideas into the visual stories of your dreams.",
+    "url": "https://www.kaiber.ai/"
   }
 ]
