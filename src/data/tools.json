@@ -10,5 +10,11 @@
     "name": "PhotoAI",
     "description": "SYNTHETIC PHOTO STUDIO BY AI",
     "url": "https://photoai.io/"
+  },
+  {
+    "id": "patterned-ai-tool",
+    "name": "PatternedAI",
+    "description": "Generate unique patterns for your product using AI",
+    "url": "https://www.patterned.ai/"
   }
 ]
