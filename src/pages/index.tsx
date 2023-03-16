@@ -1,6 +1,8 @@
 import Head from "next/head";
 import { useState } from "react";
 
+import toolsData from "../data/tools.json";
+
 type IAITool = {
   id: string;
   name: string;
@@ -9,21 +11,7 @@ type IAITool = {
 };
 
 export default function Home() {
-  const [tools] = useState<IAITool[]>([
-    {
-      id: "ellie-tool",
-      name: "Ellie - AI email assistant",
-      description:
-        "Ellie learns from your writing style and crafts replies as if they were written by you",
-      url: "https://tryellie.com/",
-    },
-    {
-      id: "photo-ai-tool",
-      name: "PhotoAI",
-      description: "SYNTHETIC PHOTO STUDIO BY AI",
-      url: "https://photoai.io/",
-    },
-  ]);
+  const [tools] = useState<IAITool[]>(toolsData);
 
   return (
     <>
@@ -38,7 +26,7 @@ export default function Home() {
       </Head>
       <main className="h-screen flex flex-col items-center py-12 px-4 bg-zinc-800">
         <div className="max-w-screen-xl flex flex-col items-center space-y-12 p-4">
-          <div className="flex flex-col space-y-2 items-center">
+          <div className="flex flex-col space-y-4 items-center">
             <h1 className="text-3xl font-bold text-gray-200">
               Discover the Latest AI Tools and Technologies for Your Business
             </h1>
