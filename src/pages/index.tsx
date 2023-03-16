@@ -18,25 +18,10 @@ export default function Home() {
       url: "https://tryellie.com/",
     },
     {
-      id: "ellie-tool-1",
-      name: "Ellie - AI email assistant",
-      description:
-        "Ellie learns from your writing style and crafts replies as if they were written by you",
-      url: "https://tryellie.com/",
-    },
-    {
-      id: "ellie-tool-2",
-      name: "Ellie - AI email assistant",
-      description:
-        "Ellie learns from your writing style and crafts replies as if they were written by you",
-      url: "https://tryellie.com/",
-    },
-    {
-      id: "ellie-tool-3",
-      name: "Ellie - AI email assistant",
-      description:
-        "Ellie learns from your writing style and crafts replies as if they were written by you",
-      url: "https://tryellie.com/",
+      id: "photo-ai-tool",
+      name: "PhotoAI",
+      description: "SYNTHETIC PHOTO STUDIO BY AI",
+      url: "https://photoai.io/",
     },
   ]);
 
@@ -66,10 +51,12 @@ export default function Home() {
             {tools.map((tool) => (
               <div
                 key={tool.id}
-                className="bg-white rounded-lg border-2 p-4 hover:shadow-xl transition-shadow duration-300"
+                className="bg-white rounded-lg border-2 p-4 hover:shadow-xl transition-shadow duration-300 flex flex-col space-y-4 justify-between"
               >
-                <h3 className="text-lg font-bold mb-2">{tool.name}</h3>
-                <p className="text-gray-700 mb-2">{tool.description}</p>
+                <div>
+                  <h3 className="text-lg font-bold mb-2">{tool.name}</h3>
+                  <p className="text-gray-700 mb-2">{tool.description}</p>
+                </div>
                 <a
                   href={tool.url}
                   className="text-blue-600 hover:text-blue-800 font-bold"
