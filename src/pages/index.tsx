@@ -38,7 +38,7 @@ export default function Home() {
             {tools.map((tool) => (
               <div
                 key={tool.id}
-                className="bg-white rounded-lg border-2 p-4 hover:shadow-xl transition-shadow duration-300 flex flex-col space-y-4 justify-between"
+                className="bg-white rounded-lg border-4 border-yellow-500 p-4 hover:shadow-xl transition-shadow duration-300 flex flex-col space-y-4 justify-between"
               >
                 <div>
                   <h3 className="text-lg font-bold mb-2">{tool.name}</h3>
