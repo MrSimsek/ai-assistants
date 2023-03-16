@@ -24,7 +24,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="h-screen flex flex-col items-center py-12 px-4 bg-zinc-800">
+      <main className="h-screen flex flex-col items-center py-12 px-4 bg-zinc-800 overflow-y-auto">
         <div className="max-w-screen-xl flex flex-col items-center space-y-12 p-4">
           <div className="flex flex-col space-y-4 items-center">
             <h1 className="text-6xl font-extrabold bg-gradient-to-r from-pink-500 to-yellow-500 inline-block text-transparent bg-clip-text">
@@ -38,10 +38,10 @@ export default function Home() {
             {tools.map((tool) => (
               <div
                 key={tool.id}
-                className="bg-white rounded-lg border-4 border-yellow-500 p-4 hover:shadow-xl transition-shadow duration-300 flex flex-col space-y-4 justify-between"
+                className="bg-yellow-200 rounded-lg border-4 border-yellow-500 p-4 hover:shadow-xl transition-shadow duration-300 flex flex-col space-y-4 justify-between"
               >
                 <div>
-                  <h3 className="text-lg font-bold mb-2">{tool.name}</h3>
+                  <h3 className="text-xl font-bold mb-2">{tool.name}</h3>
                   <p className="text-gray-700 mb-2">{tool.description}</p>
                 </div>
                 <a
