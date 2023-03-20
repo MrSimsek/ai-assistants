@@ -34,5 +34,11 @@
     "name": "Midjourney",
     "description": "Midjourney is an independent research lab exploring new mediums of thought and expanding the imaginative powers of the human species.",
     "url": "https://www.midjourney.com/home/"
+  },
+  {
+    "id": "gen2-ai-tool",
+    "name": "Gen-2: The Next Step Forward for Generative AI",
+    "description": "A multi-modal AI system that can generate novel videos with text, images, or video clips.",
+    "url": "https://research.runwayml.com/gen2"
   }
 ]
